@@ -1,0 +1,4 @@
+{{ define "main" }}
+    <h1>{{.Params.pagetitle | default .Title}} - {{.Site.Title}}</h1>
+    {{.Content}}
+{{end}}
